@@ -1,0 +1,80 @@
+body {
+    background: #283048;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 20px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Inicio Contenedor*/
+.container {
+    margin: auto;
+    max-width:600px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(5, 7, 12, 0.3),rgba(5, 7, 12, 0.3));
+    border-radius: 10px;
+    border: solid 2px white;
+}
+
+/*Inicio Contenedor contenido*/
+.div__perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+/*Contenedor contenido / Imagen*/
+.div__perfil-imagen img{
+    height: 250px;
+    border-radius: 10px;
+}
+
+/*Contenedor contenido / Informacion*/
+.div__perfil-informacion {
+    width: 400px;
+}
+
+.div__perfil-informacion h1, p, ul {
+    margin: 6px;
+    list-style-type: circle;
+}
+/*Final Contenedor contenido*/
+
+/*Inicio Contenedor redes*/
+.div__redes {
+    border-radius: 10px;
+    background: linear-gradient(rgba(5, 7, 12, 0.4),rgba(5, 7, 12, 0.4));
+}
+
+/*Contenedor redes / link*/
+.div_redes-links {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 35px;
+}
+.div__li {
+    display: inline-block;
+}
+
+.div__li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 4px;
+}
+
+.div__li:hover { 
+    color: rgb(102, 116, 146);  
+}
+
+.div__li:hover a {  
+    color: rgb(102, 116, 146);  
+}
+/*Fin Contenedor redes*/
+
+/*Fin Contenedor*/
